@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bk {
+    width: 2%; 
+    height: 4%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#bkh {
+    width: 2%; 
+    height: 4%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin-left: 32px;
+}
+
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    background-image: radial-gradient( rgb(9, 0, 59), #0c0c66);
+}
+
+
+ .um {
+    background-color: rgba(0,0, 0, 0);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+#cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 51px;
+    box-shadow:  50px 50px 100px #1d1d1d11, -50px -50px 100px #75757510;
+    margin-top: 30px;
+}
+
+#cadastro h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#um h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#cadastro p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#um p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+    height: 45px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px rgba(37, 37, 37, 0.308);
+} 
+
+input:hover {
+    border-style: double;
+    border-color: rgb(0, 255, 170);
+}
+
+.nome {
+    height: 20px;    
+}
+
+#enviar {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #fc8422;
+    margin: auto;
+    box-shadow: none;
+}
+
+#enviar:hover {
+    border: none;
+    background-color: #ff8a2b;
+    transition: all ease 0.5s;
+}
+
+#logo {
+    height: 80px;
+    margin-top: 20px;
+}
+
+.um #home-title {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.um button {
+    margin: 0.3rem;
+    text-align: center;
+}
+
+.butaon {
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 15px;
+    color: white;
+    background-color: #225cfc;
+    margin: auto;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.cima {
+    text-align: center;
+}
+
+.baixo{
+    text-align: center;
+}
+
+.inpor{
+    margin-top: 50px;
+}
+
+.butaon a {
+    color: white;
+    text-align: center;
+}
+
+.um button {
+    margin: 0.3rem;
+}
+
+button {
+    border-style: none;
+}
+
+.butaon {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.um{
+    text-align: center;
+}
+
+.lab1 {
+    float: left;
+
+}
+
+.lab2 {
+    display: table-caption;
+}
+
+#anterior {
+   margin-top: 20px;
+   margin-right: 80px;
+}
+
+.anterior {
+    margin-left: 140px;
+}
+
+
+#Confirmtx{
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#nm{
+    color: white;
+    margin-right: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#og2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+#og3 {
+    margin-bottom: 15px;
+}
+
+#ogp{
+    color: white;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 51px;
+    box-shadow:  50px 50px 100px #1d1d1d11, -50px -50px 100px #75757510;
+    color: white;
+    }
+
+    .container button {
+    margin: 0.3rem;
+    text-align: center;
+}
+
+    #email2 {
+        color: white;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        font-size: 19px;
+    }
+
+    #voltar {
+        margin-top: 25px;
+    }
+
+#user {
+    width: 150px;
+    height: 150px;
+    filter: (white);
+    margin-bottom: 20px;
+}
+
+#pedidos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pedido {
+    margin: 10px;
+}
+
+.pedido p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#divisao {
+    background-color: white;
+    width: 2px;
+}
+
+#bmv {
+    margin-bottom: 20px;
+}
+
+nav {
+    margin: 20px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+#txt p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#txt p a {
+    color: #ffffff;
+    background-color: #2284fc;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#cad {
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fc8422;
+}
+
+label {
+    margin: 0;
+    margin-right: 50px;
+}
+
+.legal p {
+    margin-bottom: 20px;
+}
+
+select {
+    margin: 10px;
+    height: 45px;
+    width: 200px;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px rgba(37, 37, 37, 0.308);
+}
+
+#quando {
+    margin-right: 75px;
+}
+
+#onde {
+    margin-right: 120px;
+}
+
+
+.eqp-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
